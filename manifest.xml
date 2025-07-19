@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<manifest>
+	<default remote="origin" revision="main"/>
+	<project name="apps_example" path="apps/example"/>
+	<project name="apps_shell" path="apps/shell"/>
+	<project name="book" path="book"/>
+	<project name="kernel" path="kernel"/>
+	<project name="libc" path="libc" revision="blueos-dev"/>
+	<project name="librs" path="librs"/>
+	<project name="build" path="build">
+		<linkfile dest=".gn" src="toplevel/.gn"/>
+		<linkfile dest="BUILD.gn" src="toplevel/BUILD.gn"/>
+	</project>
+	<project name="external_arm-gic" path="external/arm-gic"/>
+	<project name="external_bare-metal" path="external/bare-metal"/>
+	<project name="external_bitfield" path="external/bitfield"/>
+	<project name="external_bitflags" path="external/bitflags"/>
+	<project name="external_bluekernel_crates_io" path="external/bluekernel_crates_io">
+	</project>
+	<project name="external_cfg-if" path="external/cfg-if"/>
+	<project name="external_const-default" path="external/const-default"/>
+	<project name="external_cortex-m" path="external/cortex-m" revision="blueos-dev"/>
+	<project name="external_embedded-hal" path="external/embedded-hal"/>
+	<project name="external_embedded-io" path="external/embedded-io"/>
+	<project name="external_goblin" path="external/goblin"/>
+	<project name="external_lock_api" path="external/lock_api"/>
+	<project name="external_log" path="external/log"/>
+	<project name="external_minicov" path="external/minicov"/>
+	<project name="external_nb" path="external/nb"/>
+	<project name="external_paste" path="external/paste"/>
+	<project name="external_plain" path="external/plain"/>
+	<project name="external_proc-macro2" path="external/proc-macro2"/>
+	<project name="external_phf" path="external/phf"/>
+	<project name="external_phf_shared" path="external/phf_shared"/>
+	<project name="external_phf_generator" path="external/phf_generator"/>
+	<project name="external_phf_macros" path="external/phf_macros"/>
+	<project name="external_quote" path="external/quote"/>
+	<project name="external_rust-delegate" path="external/rust-delegate"/>
+	<project name="external_scopeguard" path="external/scopeguard"/>
+	<project name="external_scroll" path="external/scroll"/>
+	<project name="external_scroll_derive" path="external/scroll_derive"/>
+	<project name="external_semihosting" path="external/semihosting"/>
+	<project name="external_syn" path="external/syn"/>
+	<project name="external_spin" path="external/spin"/>
+	<project name="external_siphasher" path="external/siphasher"/>
+	<project name="external_thiserror" path="external/thiserror"/>
+	<project name="external_tock-registers" path="external/tock-registers"/>
+	<project name="external_unicode-ident" path="external/unicode-ident"/>
+	<project name="external_vcell" path="external/vcell"/>
+	<project name="external_void" path="external/void"/>
+	<project name="external_volatile-register" path="external/volatile-register"/>
+	<project name="external_memchr" path="external/memchr"/>
+	<project name="external_enumn" path="external/enumn"/>
+	<project name="external_flat_device_tree" path="external/flat_device_tree"/>
+	<project name="external_safe-mmio" path="external/safe-mmio"/>
+	<project name="external_virtio-drivers" path="external/virtio-drivers"/>
+	<project name="external_zerocopy" path="external/zerocopy"/>
+	<project name="external_zerocopy-derive" path="external/zerocopy-derive"/>
+	<project name="external_byteorder"  path="external/byteorder"/>
+	<project name="external_hash32"  path="external/hash32"/>
+	<project name="external_managed"  path="external/managed"/>
+	<project name="external_heapless"  path="external/heapless"/>
+	<project name="external_smoltcp"  path="external/smoltcp"/>
+	<project name="external_stable-deref-trait"  path="external/stable-deref-trait"/>
+	<project name="external_rand"  path="external/rand"/>
+	<project name="external_rand_core"  path="external/rand_core"/>
+	<project name="external_rust-fatfs"  path="external/rust-fatfs"/>
+</manifest>
