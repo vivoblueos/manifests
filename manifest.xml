@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
+	<remote fetch="." name="origin" />
 	<default remote="origin" revision="main"/>
 	<project name="apps_example" path="apps/example"/>
 	<project name="apps_shell" path="apps/shell"/>
