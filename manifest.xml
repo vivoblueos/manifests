@@ -37,6 +37,7 @@
 	<project name="external_phf_macros" path="external/phf_macros"/>
 	<project name="external_quote" path="external/quote"/>
 	<project name="external_rust-delegate" path="external/rust-delegate"/>
+	<project name="external_rust-ftp" path="external/rust-ftp"/>
 	<project name="external_scopeguard" path="external/scopeguard"/>
 	<project name="external_scroll" path="external/scroll"/>
 	<project name="external_scroll_derive" path="external/scroll_derive"/>
